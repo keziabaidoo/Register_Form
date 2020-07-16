@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form page</title>
+</head>
+<body>
+
+  <style>
+      body{
+          margin: 20px;
+          background-color: skyblue;
+          
+      }
+      sup{
+          color: red;
+      }
+
+      button{
+          width: 10%;
+          font-size: large;
+          font-weight: bold;
+      }
+    
+    
+  </style>
+  <form method="POST" action="/register">
+    <h1>School Registration Form</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <label for="lastname"><sup>*</sup>Last Name</label><br>
+            <input type="text" id="lastname" name="lastname" size="30"/>
+        
+             
+
+        <div>
+            <label for="firstname"><sup>*</sup>First Name</label><br>
+            <input type="text" id="firstname" name="firstname" size="30"/>
+    
+        </div>
+           <div>
+            <label for="middlename">Middle Name</label><br>
+            <input type="text" id="middlename" name="middlename" size="30"/>
+           </div>
+            
+          <div>
+            <label for="dob"><sup>*</sup>Date Of Birth</label><br>
+            <input type="date" id="dob" name="dob" size="30" />
+    
+        </div>
+        <div>
+            <label for="gender"><sup>*</sup>Gender</label><br>
+            <input type="text" id="gender" name="gender" size="30"/>
+            <select name="gender" id="gender">
+                <option value="female">female</option>
+                <option value="male">male</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="stbirth">State Of Birth</label><br>
+            <input type="text" id="stbirth" id="stbirth" size="30"/>
+        </div>
+
+        <div>
+            <label for="cbirth"><sup>*</sup>Country Of Birth</label><br>
+            <input type="text" id="cbirth" name="cbirth" size="30" />
+    
+        </div>
+
+        <div>
+            <label for="homephone"><sup>*</sup>Home Phone</label><br>
+            <input type="number" id="homephone" name="homephone" size="30" />
+    
+        </div>
+
+        <div>
+            <label for="cellphone">Cell Phone</label><br>
+            <input type="number" id="cellphone" name="cellphone" size="30" />
+    
+        </div>
+
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" size="30" />
+    
+        </div>
+
+        <div>
+            <label for="homeaddress"><sup>*</sup>Home Address</label><br>
+            <input type="text" id="homeaddress" name="homepaddress" size="30" />
+    
+        </div>
+
+        <div>
+            <label for="apt/unitno">Apt/Unite No.</label><br>
+            <input type="text" id="apt/unitno" name="apt/unitno" size="30" />
+    
+        </div>
+
+
+        <div>
+            <label for="city"><sup>*</sup>City</label><br>
+            <input type="text" id="city" name="city" size="30" />
+    
+        </div>
+
+        <div>
+            <label for="state"><sup>*</sup>State</label><br>
+            <input type="state" id="state" name="state" size="30" />
+    
+        </div>
+
+        <div>
+            <label for="zipcode"><sup>*</sup>Zip Code</label><br>
+            <input type="number" id="zipcode" name="zipcode" size="30" />
+    
+        </div>
+           
+        <div>
+            <label for="csname"><sup>*</sup>Current School Name</label><br>
+            <input type="text" id="csname" name="csname" size="30" />
+    
+        </div>
+
+        <div>
+            <label for="cglevel"><sup>*</sup>Current Grade Level</label><br>
+            <input type="text" id="cglevel" name="cglevel" size="30" />
+    
+        </div>
+
+        <div>
+            <label for="csaddress"><sup>*</sup>Current School Address</label><br>
+            <input type="text" id="csaddress" name="csaddress" size="30" />
+    
+        </div>
+
+        <div>
+            <label for="city"><sup>*</sup>City</label><br>
+            <input type="text" id="city" name="city" size="30" />
+    
+        </div>
+
+        <div>
+            <label for="state"><sup>*</sup>State</label><br>
+            <input type="state" id="state" name="state" size="30" />
+    
+        </div>
+
+        <div>
+            <label for="zipcode">Zip Code</label><br>
+            <input type="number" id="zipcode" name="zipcode" size="30" />
+    
+        </div>
+
+
+        <div>
+            <label for="glentry"><sup>*</sup>Grade Level Of Entry</label><br>
+            <input type="glentry" id="glentry" name="glentry" size="30" /><br>
+
+            
+                <label for="syentry"><sup>*</sup>School Year Of Entry</label><br>
+                <input type="syentry" id="syentry" name="syentry" size="30" />
+        
+            
+    
+        </div>
+        <br>
+        
+        <div>
+            <input type="text" placeholder="Parent/Guardian Information" size="40"/><br>
+            <input type="number" placeholder="Emergency Contact" size="40"/><br>
+            <input type="text" placeholder="Signature" size="40"/>
+           
+        </div>
+         <br>
+        <div>
+         <button type="submit" value="login">Submit</button>
+        </div>
+           
+        
+         
+     
+    </div>
+
+
+    </form>
+    
+</body>
+</html>
